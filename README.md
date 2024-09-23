@@ -19,6 +19,7 @@ C4Context
 
         Rel(reader, idp, "Logs in to get access token")
         Rel(publisher, idp, "Assigns attributes to users so they can read content")
+        Rel(publisher, discovery_server, "Registers TDFs with URLs")
         Rel(plugin, discovery_server, "Sends access token and webpage to get relevant TDFs")
 }
 
