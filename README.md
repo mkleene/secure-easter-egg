@@ -6,8 +6,8 @@ C4Context
       title Easter Egg Context Diagram
       Enterprise_Boundary(b0, "System") {
         
-        Person(reader, "Web browser", "Someone who is surfing the web")
-        Person(publisher, "Content Hider", "Someone that wants to add secure content to existing web pages")
+        Person(reader, "Browser", "Someone who is surfing the web")
+        Person(publisher, "Publisher", "Someone that wants to add secure content to existing web pages")
       
         System_Boundary(frontend, "Frontend") {
         System(plugin, "Browser Plugin", "")
